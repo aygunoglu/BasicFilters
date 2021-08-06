@@ -4,11 +4,11 @@ Simple image filtering does not need to be hard. BasicFilters provides easy-to-u
 
 ## High-level image filterin on iOS 14.5+
 
-*Utilizes Apple's own CoreImage framework. 
-*Five different filters: Blur, Invert, Sepia, Bloom and Grayscale.
-*Keeps original image quality.
-*Extremely easy-to-handle.  
-*Developed from ground up to be safe.
+* Utilizes Apple's own CoreImage framework. 
+* Five different filters: Blur, Invert, Sepia, Bloom and Grayscale.
+* Keeps original image quality.
+* Extremely easy-to-handle.  
+* Developed from ground up to be safe.
 
 ## How to install
 
