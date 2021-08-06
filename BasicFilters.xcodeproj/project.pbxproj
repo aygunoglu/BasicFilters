@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BF722C0426BD85CF004D5F28 /* BasicFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = BF722C0226BD85CF004D5F28 /* BasicFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF722C0B26BD85E9004D5F28 /* BasicFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF722C0A26BD85E9004D5F28 /* BasicFilters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF722BFF26BD85CF004D5F28 /* BasicFilters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicFilters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF722C0226BD85CF004D5F28 /* BasicFilters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicFilters.h; sourceTree = "<group>"; };
 		BF722C0326BD85CF004D5F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF722C0A26BD85E9004D5F28 /* BasicFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicFilters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				BF722C0226BD85CF004D5F28 /* BasicFilters.h */,
 				BF722C0326BD85CF004D5F28 /* Info.plist */,
+				BF722C0A26BD85E9004D5F28 /* BasicFilters.swift */,
 			);
 			path = BasicFilters;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					BF722BFE26BD85CF004D5F28 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF722C0B26BD85E9004D5F28 /* BasicFilters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		BF722C0826BD85CF004D5F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7T54WZ2884;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasanaygunoglu.BasicFilters;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		BF722C0926BD85CF004D5F28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7T54WZ2884;
